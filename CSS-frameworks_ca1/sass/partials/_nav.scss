@@ -1,0 +1,29 @@
+.navbar-brand, .heading{
+    font-size: 30px;
+    color: #E92569;
+    font-family: $font-headings;
+}
+
+.navbar{
+    background: getColour(primary);
+    color:black;
+    
+    
+   
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color:white;
+    font-size: 15px;
+}
+
+.nav-item :hover{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
+
